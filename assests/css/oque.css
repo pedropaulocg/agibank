@@ -1,0 +1,80 @@
+.oq-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    
+}
+
+.oq-container img{
+    width: 40%;
+    max-width: 460px;
+    max-height: 690px;
+    margin-left: 12%;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+
+.header-content p{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.oq-content{
+    margin-left: 7%;
+}
+
+.oq-content h1{
+    color: #223645;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+    letter-spacing: -1.1px;
+}
+.oq-content ul{
+    list-style: none;
+    margin: 10px 0;
+}
+.oq-content li{
+    color: #444444;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.line{
+    background-color: rgb(51, 51, 245);
+    height: 2px;
+    width: 60px;
+    margin-left: 15px;
+}
+@media (max-width: 1024px){
+    .oq-content h1{
+        font-size: 50px;
+    }
+    .oq-content{
+        margin: 5%;
+    }
+    .oq-container img{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 425px){
+    .oq-container img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .oq-content h1{
+        font-size: 30px;
+    }
+    .oq-content li{
+        font-size: 14px;
+    }
+    .oq-container{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,79 @@
+.beneficios-header h2{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.linha2{
+    width: 190px;
+    height: 2px;
+    background-color: rgb(51, 51, 245);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.beneficios-header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.beneficios-content h1{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    width: 50%;
+    color: rgb(46, 46, 46);
+    margin: 20px 0;
+}
+.beneficios-content ul{
+    margin-left: 2.5rem;
+    margin-bottom: 5%;
+}
+.beneficios-content li{
+    font-size: 25px;
+    font-family: 'Open Sans';
+    list-style: none;
+}
+.beneficios{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+}
+
+
+@media (max-width: 768px){
+    .img-side{
+        width: 60%;
+        max-width: 350px;
+        max-height: 450px;
+        margin-right: 5%;
+    }
+    .beneficios-content h1{
+        width: auto;
+        margin-left: 10%;
+    }
+    .beneficios-header{
+        margin-left: 10%;
+    }
+    .mobile-benef{
+        margin-left: 10%;
+    }
+}
+
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 425px){
+    .beneficios{
+        flex-direction: column;
+    }
+    .img-side{
+        margin: 10% auto;
+        width: 80%;
+
+    }
+}
